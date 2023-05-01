@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  background-color: gray;
+}
+
+header {
+  background-color: whitesmoke;
+  padding: 0px;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin: 0px;
+  border: 0cap;
+}
+
+h2 {
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin: 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.course {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin: 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.leaderboard {
+  text-align: right;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin: 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+.faq {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  /*
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  opacity: 0.5;
+  background-size: cover;
+  background-position: center;
+  height: 100px;*/
+}
+.content {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: whitesmoke;
+  opacity: 1;
+}
+.answerFAQ {
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  font-family: Montserrat;
+  color: black;
+  color: whitesmoke;
+  opacity: 1;
+}
+.center {
+  text-align: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  opacity: 0.5;
+  background-size: cover;
+  height: 100px;
+  max-height: auto;
+  max-width: auto;
+}
+.dbmsquestion {
+  text-align: start;
+  font-family: Montserrat;
+  font-weight: 300;
+  margin: 1px;
+  font-size: 20px;
+  opacity: 10;
+  font-display: white;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Montserrat;
+  padding: 1rem;
+  background-color: gray;
+}
+.quiz,
+.choices {
+  list-style-type: none;
+  padding: 0;
+}
+.choices li {
+  margin-bottom: 5px;
+}
+.choices label {
+  display: flex;
+  align-items: center;
+}
+.choices label,
+input[type="radio"] {
+  cursor: pointer;
+}
+input[type="radio"] {
+  margin-right: 8px;
+}
+.view-results {
+  cursor: pointer;
+  color: black;
+  font-family: Montserrat;
+  background-color: black;
+  background: gray;
+  border-radius: 5px;
+  margin-right: 3px;
+  border: 1px solid black;
+}
+.my-results {
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.nav li {
+  margin-left: 20px;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  display: flex;
+  text-align: start;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  padding: auto;
+  /*
+   background-color: whitesmoke;
+  padding: 10px;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin: 10px;
+  border: 0cap;*/
+}
+.footer-links {
+  margin-bottom: 20px;
+}
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+  word-spacing: 10px;
+}
+span {
+  text-align: right;
+  position: absolute;
+  color: whitesmoke;
+  bottom: auto;
+}
